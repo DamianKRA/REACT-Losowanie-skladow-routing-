@@ -1,0 +1,35 @@
+.warningDiv {
+  max-width: 340px;
+  margin: auto;
+  margin-top: 15px;
+
+  span {
+      display: inline-block;
+      color: red;
+      margin-bottom: 15px;
+      font-size: 18px;
+      text-align: center;
+  }
+
+  .buttons {
+      width: 200px;
+      margin: auto;
+
+      .submit {
+          display: inline-block;
+          width: 100px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+          transition-duration: 0.1s;
+      }
+
+      .submit:hover {
+          background-color: $color5;
+          color: $color2;
+      }
+
+      .tak:hover {
+          background-color: #ff2323;
+      }
+  }
+}

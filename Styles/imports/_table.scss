@@ -1,0 +1,33 @@
+.tableComponent {
+    overflow: auto;
+
+    .tableOfMatches {
+        width: 100%;
+        margin: 20px auto;
+        font-size: 13px;
+        border-collapse: collapse;
+
+        th {
+            font-size: 16px;
+        }
+
+        tbody {
+
+            tr {
+                transition-duration: 0.1s;
+                height: 45px;
+            }
+
+            tr:hover, tr:nth-child(even):hover {
+                color: $color2;
+                background-color: $color1;
+                cursor: pointer;
+            }
+
+            tr:nth-child(even) {
+                color: $color2;
+                background-color: $color5;
+            }
+        }
+    }
+}

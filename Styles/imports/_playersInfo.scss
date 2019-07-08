@@ -1,0 +1,48 @@
+.playersInfoComponent {
+    margin: auto;
+    margin-top: 20px;
+
+    hr {
+        margin: 20px 0px;
+        border: 1px solid $color1;
+        border-radius: 5px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th {
+            font-size: 18px;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        tr:nth-child(even) {
+            color: $color2;
+            background-color: $color5;
+        }
+
+        td {
+            width: 40px;
+        }
+
+        td:first-child {
+            text-align: left;
+            padding-left: 10px;
+            width: auto;
+        }
+    }
+
+    .bestAndWorst {
+        td {
+            width: auto;
+        }
+
+        tr{
+            height: 40px;
+        }
+    }
+}

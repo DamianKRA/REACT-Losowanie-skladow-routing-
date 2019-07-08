@@ -1,0 +1,23 @@
+.inputsComponent {
+  overflow: auto;
+
+  h1 {
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+
+  .inputs {
+    margin: auto;
+    width: 200px;
+
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .submit {
+      margin: 0px;
+      margin-top: 10px;
+    }
+  }
+}

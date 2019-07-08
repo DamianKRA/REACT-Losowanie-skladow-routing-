@@ -1,0 +1,27 @@
+.matchInfoComponent {
+    overflow: auto;
+    margin-bottom: 20px;
+
+    .table {
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 10px 0px;
+
+        input[type="text"] {
+            width: 100px;
+        }
+
+        .header {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .spacer{
+            height: 20px;
+        }
+    }
+
+    .submit {
+        width: 150px;
+    }
+}

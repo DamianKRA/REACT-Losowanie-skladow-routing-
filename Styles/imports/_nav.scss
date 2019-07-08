@@ -1,0 +1,70 @@
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+  .background {
+    background-color: $color3;
+    height: 50px;
+    z-index: 2;
+  }
+
+  .dropMenu {
+    float: right;
+    margin-right: 10px;
+    margin-top: -40px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  ul {
+    clear: both;
+    background-color: $color5;
+    position: relative;
+    top: 0px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+    animation: dropMenu 0.4s 1;
+
+    li {
+      text-align: center;
+      border-bottom: 1px solid $color1;
+
+      a {
+        display: block;
+        widows: 100%;
+        padding: 20px;
+        text-decoration: none;
+        color: $color2;
+      }
+    }
+
+    li:last-child {
+      border: none;
+    }
+  }
+}
+
+@keyframes dropMenu {
+  0% {
+    top: -120px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
